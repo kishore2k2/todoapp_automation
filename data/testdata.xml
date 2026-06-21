@@ -1,0 +1,13 @@
+<testdata>
+    <url>https://todomvc.com/</url>
+    <task1>playwright structure</task1>
+    <task2>Page Object Model</task2>
+    <task3>STLC</task3>
+    <task4>Reusable Components</task4>
+    <task5>Data driven</task5>
+    <task6>postman</task6>  
+    <task7>Cross browser testing</task7>
+    <task8>RestAPI</task8>      
+
+
+</testdata>
