@@ -1,13 +1,14 @@
 <testdata>
     <url>https://todomvc.com/</url>
-    <task1>playwright structure</task1>
-    <task2>Page Object Model</task2>
-    <task3>STLC</task3>
-    <task4>Reusable Components</task4>
-    <task5>Data driven</task5>
-    <task6>postman</task6>  
-    <task7>Cross browser testing</task7>
-    <task8>RestAPI</task8>      
-
+    <task1>POM</task1>
+    <task2>Data driven concept</task2>
+    <task3>Reusable methods</task3>
+    <task4>Cross browser testing</task4>
+    <task5>Fixtures and locators</task5>
+    <task6>xpath</task6>  
+    <task7>Git</task7>
+    <task8>Jira</task8>      
+    <task9>Api testing</task9>
+    <task10>allure report</task10>    
 
 </testdata>

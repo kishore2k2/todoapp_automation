@@ -1,8 +1,9 @@
 import {test} from '@playwright/test';
-// import userdata from '../testdata/testdata.json';
-import {testdata} from '../utility/PropertiesReader';
 
-// import {readXML} from '../utils/xmlreader';
+// data driven 
+import userdata from '../data/testdata.json';  
+import {testdata} from '../utility/PropertiesReader';
+import {readXML} from '../utility/xmlreader';
 
 
 
@@ -14,13 +15,16 @@ import { TaskCreation } from '../utility/taskcreation';
 
 test.use({
   browserName: 'chromium',
-  screenshot:'on',
-  video:'on',
-  trace:'on'
+  screenshot:'off',
+  video:'off',
+  trace:'off'
 
 });
 
 test("todoapp",async ({page})=>{
+
+
+  // importing the classes from utility pacakages
 
     const common = new Common(page);
     const navigation = new Navigation(page);
@@ -28,4 +32,6 @@ test("todoapp",async ({page})=>{
     const task = new TaskCreation(page);
 
 await page.goto(testdata.url)
+
+
 });
