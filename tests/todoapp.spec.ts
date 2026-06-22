@@ -76,8 +76,6 @@ await navigation.role('link',{name:"Active"});
 await navigation.role('link',{name:"Completed"});
 await navigation.role('link ',{name:"All"});
 
-// await navigation.text('Completed');
-// await navigation.text('All');
 
 
 await navigation.lxc('.clear-completed');
