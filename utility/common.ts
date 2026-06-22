@@ -16,7 +16,9 @@ export class Common{
         await expect(this.page.locator(locator)).toHaveText(toverify);
     }
 
-
+    async verifytitle(toverify:any){
+        await expect(this.page).toHaveTitle(toverify);
+    }   
 
 
 }

@@ -7,7 +7,7 @@ export class TaskCreation{
     async addtask(locator:string,taskname:any){
         const add = await this.page.locator(locator)
         await add.fill(taskname)
-        await add.press('enter')
+        await add.press('Enter')
 
     }
 
@@ -16,7 +16,7 @@ export class TaskCreation{
         await selecttask.dblclick();
         await selecttask.clear()
         await selecttask.fill(newtaskname);
-
+        await selecttask.press('Enter');
 
     }
 
